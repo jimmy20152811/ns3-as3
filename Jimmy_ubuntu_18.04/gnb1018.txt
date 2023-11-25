@@ -1,0 +1,105 @@
+ubuntu@ubuntu:~/UERANSIM$ build/nr-gnb -c config/free5gc-gnb.yaml
+UERANSIM v3.2.6
+[2023-10-18 04:19:27.850] [sctp] [info] Trying to establish SCTP connection... (192.168.1.217:38412)
+[2023-10-18 04:19:27.862] [sctp] [info] SCTP connection established (192.168.1.217:38412)
+[2023-10-18 04:19:27.863] [sctp] [debug] SCTP association setup ascId[12]
+[2023-10-18 04:19:27.864] [ngap] [debug] Sending NG Setup Request
+[2023-10-18 04:19:27.872] [ngap] [debug] NG Setup Response received
+[2023-10-18 04:19:27.872] [ngap] [info] NG Setup procedure is successful
+[2023-10-18 04:19:36.383] [ngap] [error] Unhandled NGAP initiating-message received (19)
+[2023-10-18 04:19:36.489] [sctp] [debug] SCTP association shutdown (clientId: 2)
+[2023-10-18 04:19:36.490] [sctp] [warning] Unhandled SCTP notification received
+[2023-10-18 04:19:36.490] [ngap] [error] Association terminated for AMF[2]
+[2023-10-18 04:19:36.490] [ngap] [debug] Removing AMF context[2]
+^Cubuntu@ubuntu:~/UERANSIM$ build/nr-gnb -c config/free5gc-gnb.yaml
+UERANSIM v3.2.6
+[2023-10-18 04:19:58.210] [sctp] [info] Trying to establish SCTP connection... (192.168.1.217:38412)
+[2023-10-18 04:19:58.222] [sctp] [info] SCTP connection established (192.168.1.217:38412)
+[2023-10-18 04:19:58.222] [sctp] [debug] SCTP association setup ascId[13]
+[2023-10-18 04:19:58.223] [ngap] [debug] Sending NG Setup Request
+[2023-10-18 04:19:58.229] [ngap] [debug] NG Setup Response received
+[2023-10-18 04:19:58.229] [ngap] [info] NG Setup procedure is successful
+[2023-10-18 04:20:06.115] [rrc] [debug] UE[1] new signal detected
+[2023-10-18 04:20:06.117] [rrc] [info] RRC Setup for UE[1]
+[2023-10-18 04:20:06.118] [ngap] [debug] Initial NAS message received from UE[1]
+[2023-10-18 04:20:21.419] [rrc] [debug] UE[2] new signal detected
+[2023-10-18 04:20:22.623] [rls] [debug] UE[1] signal lost
+[2023-10-18 04:20:31.139] [rrc] [info] RRC Setup for UE[2]
+[2023-10-18 04:20:31.140] [ngap] [debug] Initial NAS message received from UE[2]
+[2023-10-18 04:20:46.832] [rrc] [debug] UE[3] new signal detected
+[2023-10-18 04:20:48.035] [rls] [debug] UE[2] signal lost
+[2023-10-18 04:20:56.164] [rrc] [info] RRC Setup for UE[3]
+[2023-10-18 04:20:56.165] [ngap] [debug] Initial NAS message received from UE[3]
+[2023-10-18 04:21:11.424] [rrc] [debug] UE[4] new signal detected
+[2023-10-18 04:21:12.627] [rls] [debug] UE[3] signal lost
+[2023-10-18 04:21:21.189] [rrc] [info] RRC Setup for UE[4]
+[2023-10-18 04:21:21.190] [ngap] [debug] Initial NAS message received from UE[4]
+[2023-10-18 04:21:36.838] [rrc] [debug] UE[5] new signal detected
+[2023-10-18 04:21:38.041] [rls] [debug] UE[4] signal lost
+[2023-10-18 04:21:46.214] [rrc] [info] RRC Setup for UE[5]
+[2023-10-18 04:21:46.215] [ngap] [debug] Initial NAS message received from UE[5]
+[2023-10-18 04:22:01.429] [rrc] [debug] UE[6] new signal detected
+[2023-10-18 04:22:02.632] [rls] [debug] UE[5] signal lost
+^Cubuntu@ubuntu:~/UERANSIM$ build/nr-gnb -c config/free5gc-gnb.yaml
+UERANSIM v3.2.6
+[2023-10-18 04:32:36.343] [sctp] [info] Trying to establish SCTP connection... (192.168.1.217:38412)
+[2023-10-18 04:32:36.347] [sctp] [info] SCTP connection established (192.168.1.217:38412)
+[2023-10-18 04:32:36.348] [sctp] [debug] SCTP association setup ascId[14]
+[2023-10-18 04:32:36.348] [ngap] [debug] Sending NG Setup Request
+[2023-10-18 04:32:36.356] [ngap] [debug] NG Setup Response received
+[2023-10-18 04:32:36.356] [ngap] [info] NG Setup procedure is successful
+^Cubuntu@ubuntu:~/UERANSIM$ build/nr-gnb -c config/free5gc-gnb.yaml
+UERANSIM v3.2.6
+[2023-10-18 04:37:21.826] [sctp] [info] Trying to establish SCTP connection... (192.168.1.217:38412)
+[2023-10-18 04:37:21.838] [sctp] [info] SCTP connection established (192.168.1.217:38412)
+[2023-10-18 04:37:21.839] [sctp] [debug] SCTP association setup ascId[15]
+[2023-10-18 04:37:21.839] [ngap] [debug] Sending NG Setup Request
+[2023-10-18 04:37:21.846] [ngap] [debug] NG Setup Response received
+[2023-10-18 04:37:21.846] [ngap] [info] NG Setup procedure is successful
+[2023-10-18 04:37:27.833] [rrc] [debug] UE[1] new signal detected
+[2023-10-18 04:37:27.835] [rrc] [info] RRC Setup for UE[1]
+[2023-10-18 04:37:27.836] [ngap] [debug] Initial NAS message received from UE[1]
+[2023-10-18 04:37:27.963] [ngap] [debug] Initial Context Setup Request received
+[2023-10-18 04:37:28.289] [ngap] [info] PDU session resource(s) setup for UE[1] count[1]
+[2023-10-18 04:54:40.522] [ngap] [error] Unhandled NGAP initiating-message received (19)
+[2023-10-18 04:54:40.625] [sctp] [debug] SCTP association shutdown (clientId: 2)
+[2023-10-18 04:54:40.626] [sctp] [warning] Unhandled SCTP notification received
+[2023-10-18 04:54:40.626] [ngap] [error] Association terminated for AMF[2]
+[2023-10-18 04:54:40.626] [ngap] [debug] Removing AMF context[2]
+[2023-10-18 04:55:02.953] [rls] [debug] UE[1] signal lost
+^Cubuntu@ubuntu:~/UERANSIM$ build/nr-gnb -c config/free5gc-gnb.yaml
+UERANSIM v3.2.6
+[2023-10-18 04:56:15.122] [sctp] [info] Trying to establish SCTP connection... (192.168.1.217:38412)
+[2023-10-18 04:56:15.132] [sctp] [info] SCTP connection established (192.168.1.217:38412)
+[2023-10-18 04:56:15.133] [sctp] [debug] SCTP association setup ascId[16]
+[2023-10-18 04:56:15.133] [ngap] [debug] Sending NG Setup Request
+[2023-10-18 04:56:15.139] [ngap] [debug] NG Setup Response received
+[2023-10-18 04:56:15.139] [ngap] [info] NG Setup procedure is successful
+[2023-10-18 04:56:21.913] [rrc] [debug] UE[1] new signal detected
+[2023-10-18 04:56:21.915] [rrc] [info] RRC Setup for UE[1]
+[2023-10-18 04:56:21.916] [ngap] [debug] Initial NAS message received from UE[1]
+[2023-10-18 04:56:22.039] [ngap] [debug] Initial Context Setup Request received
+[2023-10-18 04:56:22.358] [ngap] [info] PDU session resource(s) setup for UE[1] count[1]
+[2023-10-18 04:56:56.950] [rls] [debug] UE[1] signal lost
+^Cubuntu@ubuntu:~/UERANSIM$ build/nr-gnb -c config/free5gc-gnb.yaml
+UERANSIM v3.2.6
+[2023-10-18 04:57:53.589] [sctp] [info] Trying to establish SCTP connection... (192.168.1.217:38412)
+[2023-10-18 04:57:53.598] [sctp] [info] SCTP connection established (192.168.1.217:38412)
+[2023-10-18 04:57:53.600] [sctp] [debug] SCTP association setup ascId[17]
+[2023-10-18 04:57:53.600] [ngap] [debug] Sending NG Setup Request
+[2023-10-18 04:57:53.609] [ngap] [debug] NG Setup Response received
+[2023-10-18 04:57:53.609] [ngap] [info] NG Setup procedure is successful
+[2023-10-18 04:57:56.452] [rrc] [debug] UE[1] new signal detected
+[2023-10-18 04:57:56.454] [rrc] [info] RRC Setup for UE[1]
+[2023-10-18 04:57:56.455] [ngap] [debug] Initial NAS message received from UE[1]
+[2023-10-18 04:57:56.569] [ngap] [debug] Initial Context Setup Request received
+[2023-10-18 04:57:56.888] [ngap] [info] PDU session resource(s) setup for UE[1] count[1]
+[2023-10-25 09:37:10.405] [ngap] [error] Unhandled NGAP initiating-message received (19)
+[2023-10-25 09:37:10.513] [sctp] [debug] SCTP association shutdown (clientId: 2)
+[2023-10-25 09:37:10.513] [sctp] [warning] Unhandled SCTP notification received
+[2023-10-25 09:37:10.514] [ngap] [error] Association terminated for AMF[2]
+[2023-10-25 09:37:10.514] [ngap] [debug] Removing AMF context[2]
+[2023-10-25 09:37:57.252] [rls] [debug] UE[1] signal lost
+^Cubuntu@ubuntu:~/UERANSIM$ packet_write_wait: Connection to 192.168.1.216 port 22: Broken pipe
+jimmy@jimmy-ESC500-G4-SFF:~$ 
+
